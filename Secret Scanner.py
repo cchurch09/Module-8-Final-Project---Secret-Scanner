@@ -17,7 +17,7 @@ SECRET_PATTERNS = {
     "Google API Key": r"AIza[0-9A-Za-z\-_]{35}",
     "GitHub Token": r"ghp_[A-Za-z0-9]{36}",
     "JWT Token": r"eyJ[A-Za-z0-9-_]+\.[A-Za-z0-9-_]+\.[A-Za-z0-9-_]+",
-    "Stripe Secret Key": r"sk_live_[0-9a-zA-Z]{24}",}
+    "Stripe Secret Key": r"sk_live_[0-9a-zA-Z]{24}",} #using differeent tokens had trouble with pushing commit
 
 def scan_file(filepath):
     findings = []
